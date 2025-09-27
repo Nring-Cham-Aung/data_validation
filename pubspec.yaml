@@ -1,0 +1,21 @@
+name: data_validation
+description: "A Dart package for validating various data types and formats."
+version: 0.0.1
+repository: https://github.com/Nring-Cham-Aung/data_validation
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
