@@ -16,16 +16,23 @@ flutter pub add data_validation
 
 ### Single validation
 ``` 
+
 final result = SingleValidation(yourData, Validation.string().only(['Male', 'Female'])).validate();
+
+
 ```
 
 ```
+
 final result = SingleValidation(yourData, Validation.email().mustEnd(['.com','.org'])).validate();
+
+
 ```
 
 ### Multi validation
 
 ```
+
 final result = MultiValidation(data, {
   'name': Validation.string().max(30),
   'gender': Validation.string().only(['Male', 'Female']),
@@ -33,5 +40,7 @@ final result = MultiValidation(data, {
   'address': Validation.string(nullAble: true).max(200),
   'email': Validation.email().mustEnd(['.com','.org'])
 }).validate();
+
+
 ```
 

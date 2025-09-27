@@ -5,7 +5,7 @@ import 'validate.dart';
 
 /// * [Common] is a base class providing common validation functionalities.
 abstract class Common {
-  final RegExp _emailRegex = RegExp(r'^[\w.-]+@([\w-]+\.)+[\w-]{2,4}$');
+  final RegExp _emailRegex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
 
   dynamic valid(dynamic value, MapEntry<String, Validate> validate){
     final stack = validate.value.stack;

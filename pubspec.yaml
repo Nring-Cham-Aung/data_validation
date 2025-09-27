@@ -1,6 +1,6 @@
 name: data_validation
 description: "A Dart package for validating various data types and formats."
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Nring-Cham-Aung/data_validation
 
 environment:
